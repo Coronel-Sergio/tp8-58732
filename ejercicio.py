@@ -73,6 +73,9 @@ if archivo_cargado is not None:
 else:
     st.subheader("Por favor, sube un archivo CSV desde la barra lateral.")
 
+## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea
+# url = 'https://tp8-58732.streamlit.app/'
+
 def mostrar_datos_alumno():
      with st.container(border=True):
         st.markdown('**Legajo:** 58.732')
